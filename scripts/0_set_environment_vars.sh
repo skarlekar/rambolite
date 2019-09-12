@@ -1,17 +1,20 @@
 export SCRIPTS_DIR=./scripts
 export SSH_ID_FILE=~/k8s.pem
 
-export CONTROLLER0_HOST=ec2-18-208-195-208.compute-1.amazonaws.com
+export CONTROLLER0_HOST=ec2-3-226-248-212.compute-1.amazonaws.com
+export CONTROLLER0_PUBLIC_IP=3.226.248.212
 export CONTROLLER0_IP=192.168.0.40
-export CONTROLLER1_HOST=ec2-34-201-4-157.compute-1.amazonaws.com
+export CONTROLLER1_HOST=ec2-3-223-129-99.compute-1.amazonaws.com
+export CONTROLLER1_PUBLIC_IP=3.223.129.99
 export CONTROLLER1_IP=192.168.0.44
-export WORKER0_HOST=ec2-18-233-200-213.compute-1.amazonaws.com
+export WORKER0_HOST=ec2-3-218-244-214.compute-1.amazonaws.com
 export WORKER0_IP=192.168.0.47
-export WORKER1_HOST=ec2-34-237-141-115.compute-1.amazonaws.com
+export WORKER1_HOST=ec2-100-27-44-121.compute-1.amazonaws.com
 export WORKER1_IP=192.168.0.85
-export LB_HOST=ec2-34-235-150-91.compute-1.amazonaws.com
+export LB_HOST=ec2-18-235-3-120.compute-1.amazonaws.com
 export LB_IP=192.168.0.11
 export CERT_HOSTNAME=10.32.0.1,$CONTROLLER0_IP,$CONTROLLER0_HOST,$CONTROLLER1_IP,$CONTROLLER1_HOST,$LB_IP,$LB_HOST,127.0.0.1,localhost,kubernetes.default
+export INITIAL_CLUSTER=$CONTROLLER0_HOST=https://$CONTROLLER0_IP:2380,$CONTROLLER1_HOST=https://$CONTROLLER1_IP:2380
 
 # Set KUBERNETES_ADDRESS=<load balancer private ip>
 export KUBERNETES_ADDRESS=$LB_IP
