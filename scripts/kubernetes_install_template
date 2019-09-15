@@ -1,0 +1,14 @@
+export INTERNAL_IP=$(curl http://169.254.169.254/latest/meta-data/local-ipv4)
+export CONTROLLER0_IP=CONTROLLER0_PRIVATE_IP
+export CONTROLLER1_IP=CONTROLLER1_PRIVATE_IP
+chmod +x commands_gen_kubernetes_api.sh
+~/commands_gen_kubernetes_api.sh
+#sudo systemctl daemon-reload
+#sudo systemctl enable etcd
+#sudo systemctl start etcd
+#sudo systemctl status etcd
+#sudo ETCDCTL_API=3 etcdctl member list \
+#  --endpoints=https://127.0.0.1:2379 \
+#  --cacert=/etc/etcd/ca.pem \
+#  --cert=/etc/etcd/kubernetes.pem \
+#  --key=/etc/etcd/kubernetes-key.pem
