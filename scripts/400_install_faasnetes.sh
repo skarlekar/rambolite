@@ -10,6 +10,12 @@ kubectl apply -f faas-netes/namespaces.yml
 kubectl get namespace
 # echo You should see the namespaces openfaas and openfaas-fn
 
-# Deploy OpenFaas on Kubernetes
-cd faas-netes && kubectl apply -f ./yaml
+# generate a random password
+PASSWORD=$(head -c 12 /dev/urandom | shasum| cut -d' ' -f1)
 
+kubectl -n openfaas create secret generic basic-auth \
+--from-literal=basic-auth-user=admin \
+--from-literal=basic-auth-password="$PASSWORD"
+
+# Deploy OpenFaas on Kubernetes
+kubectl apply -f faas-netes/yaml
