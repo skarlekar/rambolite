@@ -1,3 +1,7 @@
+echo "Please login to docker hub using the following:"
+echo "docker login -u "user-name" -p "password"
+echo "Press enter to continue" && read
+
 # Get the password for OpenFaas  admin user
 echo "Enter OpenFaas Password for the 'admin' user:"
 read PASSWORD
