@@ -1,0 +1,15 @@
+ ./scripts/1_gen_cert_auth.sh
+ ./scripts/2_gen_admin_client_cert.sh
+ ./scripts/3_gen_worker_certs.sh
+ ./scripts/4_gen_controller_manager_cert.sh
+ ./scripts/5_gen_kube_proxy_cert.sh
+ ./scripts/6_gen_kube_scheduler_cert.sh
+ ./scripts/7_gen_create_server_cert.sh
+ ./scripts/8_gen_service_acct_cert.sh
+ ./scripts/9_move_certs.sh
+ ./scripts/9_move_certs.sh
+ ./scripts/9_move_certs.sh
+ ./scripts/10_gen_kubeconfig.sh
+ ./scripts/11_move_kubeconfigs.sh
+ ./scripts/12_gen_encryption_key.sh
+ ./scripts/13_move_encryption_key.sh

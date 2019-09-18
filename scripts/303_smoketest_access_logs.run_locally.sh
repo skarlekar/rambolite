@@ -1,5 +1,5 @@
 # First, let's set an environment variable to the name of the nginx pod:
-POD_NAME=$(kubectl get pods -l run=nginx -o jsonpath="{.items[0].metadata.name}")
+POD_NAME=$(kubectl get pods -l app=nginx -o jsonpath="{.items[0].metadata.name}")
 
 # Get the logs from the nginx pod:
 kubectl logs $POD_NAME

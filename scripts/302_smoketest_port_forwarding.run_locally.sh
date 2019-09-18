@@ -1,5 +1,5 @@
 # First, get the pod name of the nginx pod and store it an an environment variable:
-POD_NAME=$(kubectl get pods -l run=nginx -o jsonpath="{.items[0].metadata.name}")
+POD_NAME=$(kubectl get pods -l app=nginx -o jsonpath="{.items[0].metadata.name}")
 
 # Forward port 8081 to the nginx pod:
 kubectl port-forward $POD_NAME 8081:80 &
