@@ -185,10 +185,13 @@ Test the remote access by creating a web-server service with replicas of  `nginx
     scripts/304_smoketest_remote_exec.run_locally.sh
 
 ### Test Deploy Service
-scripts/305_smoketest_create_service.run_locally.sh
+
+    scripts/305_smoketest_create_service.run_locally.sh
 
 ### Cleanup Test Deployments
-scripts/306_smoketest_cleanup.sh
+
+    scripts/306_smoketest_cleanup.sh
+
 
 
 
@@ -199,8 +202,8 @@ scripts/306_smoketest_cleanup.sh
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDMyNjM5NCw2MTg2MTU4ODEsMzgwMj
-Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
-Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
-E5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTExODY1MTQ0NDQsNjE4NjE1ODgxLDM4MD
+I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
+MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
+IxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
