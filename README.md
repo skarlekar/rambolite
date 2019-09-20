@@ -193,7 +193,11 @@ Test the remote access by creating a web-server service with replicas of  `nginx
     scripts/306_smoketest_cleanup.sh
 
 
+## OpenFAAS
+
+
 ##  Faasnetes
+`faas-netes` is an OpenFaaS provider which enables Kubernetes for [OpenFaaS](https://github.com/openfaas/faas).
 
 ![Faasnetes Components](https://github.com/skarlekar/rambolite/blob/master/images/openfaas-architecture.png)
 ### Install Faasnetes
@@ -209,8 +213,8 @@ Test the remote access by creating a web-server service with replicas of  `nginx
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc2ODg4MzEsNjE4NjE1ODgxLDM4MD
-I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
-MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
-IxOTg4MCwtNTcyNjI0NjE5XX0=
+eyJoaXN0b3J5IjpbMTMwOTkyODA1Myw2MTg2MTU4ODEsMzgwMj
+Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
+Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
+E5ODgwLC01NzI2MjQ2MTldfQ==
 -->
