@@ -136,18 +136,20 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
     scripts/25_configure_kubeproxy.sh
 
 ## Enable Networking in the Kubernetes Cluster
-
 For pods to communicate with each other and rest of the eco-system in Kubernetes, you will need to setup a network. **Weave Net** creates a virtual network that connects  containers across multiple hosts and enables their automatic discovery; ie., it provides a network to connect all pods together, implementing the **Kubernetes** model where every Pod gets its own IP address. **Kubernetes** uses the Container Network Interface (CNI) to join pods onto **Weave Net**. 
 
     scripts/26_enable_ip_forwarding_in_workers.sh
     scripts/27_install_weave_net.sh
 
-## Configure kubect
+## Configure Remote Access
+Configure `kubectl` to allow running commands against your remote Kubernetes cluster.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk5NzU4NjYsNjE4NjE1ODgxLDM4MD
-I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
-MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
-IxOTg4MCwtNTcyNjI0NjE5XX0=
+eyJoaXN0b3J5IjpbLTQ0OTMwMzg3Myw2MTg2MTU4ODEsMzgwMj
+Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
+Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
+E5ODgwLC01NzI2MjQ2MTldfQ==
 -->
