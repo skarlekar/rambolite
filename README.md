@@ -135,13 +135,13 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
 
     scripts/25_configure_kubeproxy.sh
 
-## Enable IP Forwarding in the Workers
+## Enable Networking in the Workers
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODYwNTE3MSw2MTg2MTU4ODEsMzgwMj
+eyJoaXN0b3J5IjpbMTc4ODk3ODc1Nyw2MTg2MTU4ODEsMzgwMj
 Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
 Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
 E5ODgwLC01NzI2MjQ2MTldfQ==
