@@ -1,5 +1,5 @@
 # rambolite
-Framework to rapidly onboard new microservices on a Kubernetes cluster
+Framework to rapidly onboard microservices on a Kubernetes cluster
 
 ## Installing the client tools
 Install *cfssl* and *kubectl* and verify the installation using:
@@ -17,5 +17,5 @@ The Kubernetes command-line tool, [kubectl](https://kubernetes.io/docs/user-guid
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2OTI1ODQ4LC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
