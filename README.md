@@ -137,11 +137,11 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
 
 ## Enable Networking in the Workers
 
-For pods to communicate with each other and rest of the eco-system in K
+For pods to communicate with each other and rest of the eco-system in Kubernetes, you will need to setup a network. **Weave Net** creates a virtual network that connects Docker containers across multiple hosts and enables their automatic discovery.provides a network to connect all pods together, implementing the **Kubernetes** model. **Kubernetes** uses the Container Network Interface (CNI) to join pods onto **Weave Net**. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjI1NjgzNSw2MTg2MTU4ODEsMzgwMj
+eyJoaXN0b3J5IjpbMTkxMDUyMDI4Niw2MTg2MTU4ODEsMzgwMj
 Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
 Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
 E5ODgwLC01NzI2MjQ2MTldfQ==
