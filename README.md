@@ -125,15 +125,18 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
     scripts/23_configure_containerd.sh
 
 ## Configure Kubernetes Agent on the Workers
-`Kubelet` is the Kubernetes agent which runs on each worker node. Acting as a middleman between the Kubernetes control plane and the underlying container runtime, it coordinates the running of containers on the worker node.
+`kubelet` is the Kubernetes agent which runs on each worker node. Acting as a middleman between the Kubernetes control plane and the underlying container runtime, it coordinates the running of containers on the worker node. Configure `kubelet` on each of the worker nodes.
 
+    scripts/24_configure_kubelet.sh
+
+## Configure Network Routing on the Workers
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDY1NjkxOSwzODAyNjYzNzAsMTU3ND
-czMzUxOCwtMTkxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2
-LDE3MTc3NTQxNTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3Mj
-YyNDYxOV19
+eyJoaXN0b3J5IjpbLTE2NzM5NjY5MzcsMzgwMjY2MzcwLDE1Nz
+Q3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1
+NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01Nz
+I2MjQ2MTldfQ==
 -->
