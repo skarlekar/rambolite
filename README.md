@@ -38,6 +38,9 @@ In order to generate certificates for the local kubectl to communicate with the 
 Generate client certificates used by : `admin`, `kubelet` (one for each worker node), `kube-controller-manager`, `kube-proxy`, and `kube-scheduler`
 
     scripts/2_gen_admin_client_cert.sh
+    scripts/3_gen_worker_certs.sh
+    scripts/4_gen_controller_manager_cert.sh
+    
 
 ## Generate server certificate
 Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed with all of the hostnames and IPs that may be used later in order to access the Kubernetes API.
@@ -54,7 +57,7 @@ Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed w
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTM2OTExMzUsLTk4Nzc0NTkwMyw0Mz
-MzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4MjE5ODgw
-LC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbMTE3NTkwMTA5NywtMTkxMzY5MTEzNSwtOT
+g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
+MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
