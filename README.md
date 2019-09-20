@@ -137,11 +137,11 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
 
 ## Enable Networking in the Workers
 
-
+For pods to communicate with each other and rest of the eco-system in K
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODk3ODc1Nyw2MTg2MTU4ODEsMzgwMj
+eyJoaXN0b3J5IjpbMTE1MjI1NjgzNSw2MTg2MTU4ODEsMzgwMj
 Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
 Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
 E5ODgwLC01NzI2MjQ2MTldfQ==
