@@ -59,14 +59,19 @@ Distribute the generated certificates to the servers on the cloud
 
     scripts/9_move_certs.sh
 
-## Generate Kubeconfigs for the Cluster Components & Distribute
+## Generate Kubeconfigs for the cluster components & distribute
 A **kubeconfig** file is a file used to configure access to Kubernetes when used in conjunction with the kubectl commandline tool (or other clients). Generate kubeconfig files for the various components in the cluster: `kubelet`, `kube-proxy`, `kube-controller-manager`, `kube-scheduler,` and one for the `admin` user.
 
     scripts/10_gen_kubeconfig.sh
     scripts/11_move_kubeconfigs.sh
 
-## Generate Data Encryption Config
-To store sensitive data as secrets, create a data en
+## Generate Data Encryption Config & distribute to the Controllers
+To store sensitive data as secrets, create a data encryption config containing an encryption key.
+
+    scripts/12_gen_encryption_key.sh
+
+## 
+
     
 
 
@@ -75,8 +80,9 @@ To store sensitive data as secrets, create a data en
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODgzMDE5NSwtMTkxMzY5MTEzNSwtOT
-g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
-MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbLTE0ODc5NzY2MTIsLTE5MTM2OTExMzUsLT
+k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
+NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
