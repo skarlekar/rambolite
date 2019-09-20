@@ -60,14 +60,14 @@ Distribute the generated certificates to the servers on the cloud
     scripts/9_move_certs.sh
 
 ## Generate kubeconfig for the Cluster
-A **kubeconfig** file is a file used to configure access to Kubernetes when used in conjunction with the kubectl commandline tool (or other clients). Generate kubeconfig files for the various components in the cluster: kubelet 
+A **kubeconfig** file is a file used to configure access to Kubernetes when used in conjunction with the kubectl commandline tool (or other clients). Generate kubeconfig files for the various components in the cluster: `kubelet`, `kube-proxy`, kube-controller-manager, kube-scheduler, and one for the admin user.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIzMTQ4ODUsLTE5MTM2OTExMzUsLT
-k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
-NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbNDM2NjM3NjkzLC0xOTEzNjkxMTM1LC05OD
+c3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYy
+LC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
