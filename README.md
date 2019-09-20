@@ -165,22 +165,27 @@ Test the remote access by creating a web-server service with replicas of  `nginx
     scripts/201_clean_up_test_200.run_locally.sh
 
 ### Test Data Encryption
+scripts/300_smoketest_data_encryption.sh
 
 ### Test Service Deployment
+scripts/301_smoketest_deployment.run_locally.sh
 
 ### Test Port Forwarding
+scripts/302_smoketest_port_forwarding.run_locally.sh
 
 ### Test Accessing Kubernetes Logs
 
 ### Test Remote Execution
 
-### Test Service
+### Test Deploy Service
+
+### Cleanup Test Deployments
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjI1NTk2Myw2MTg2MTU4ODEsMzgwMj
+eyJoaXN0b3J5IjpbLTcyMTUzOTM1Niw2MTg2MTU4ODEsMzgwMj
 Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
 Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
 E5ODgwLC01NzI2MjQ2MTldfQ==
