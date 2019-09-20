@@ -99,7 +99,12 @@ The Kubernetes Scheduler controls performance, capacity and availability of the 
     scripts/18_setup_kube_scheduler.sh
 
 ## Enable HTTP Health Checks for the Controllers
-Enable HTTP health checks using nginx. Install nginx and 
+Enable HTTP health checks using nginx. Install nginx on each controller, configure and start it.
+
+    scripts/19_enable_health_checks.sh
+
+## Setup RBAC
+
 
 
 
@@ -110,7 +115,7 @@ Enable HTTP health checks using nginx. Install nginx and
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1MzM0NTAzLDE1NzQ3MzM1MTgsLTE5MT
-M2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2
-LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTE4ODQ1OTE3MzgsMTU3NDczMzUxOCwtMT
+kxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQx
+NTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
