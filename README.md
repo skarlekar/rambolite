@@ -11,11 +11,13 @@ CFSSL is CloudFlare's PKI/TLS swiss army knife. It is both a command line tool a
 The Kubernetes command-line tool, [kubectl](https://kubernetes.io/docs/user-guide/kubectl/), allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs. For a complete list of kubectl operations, see [Overview of kubectl](https://kubernetes.io/docs/reference/kubectl/overview/).
 
 
-## Install
+## Initialize compute nodes on AWS
+Create five EC2 instances on AWS using the Ubuntu 16.04 AMI. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTU0NDc0MzczMSwtMjgyMTk4ODAsLTU3Mj
+YyNDYxOV19
 -->
