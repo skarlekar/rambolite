@@ -88,7 +88,8 @@ To interact with Kubernetes you will be using the Kubernetes API server. Configu
 
     scripts/16_install_kubernetes_api.sh
 
-## 
+## Setup the Kubernetes Controller Manager on the Controllers
+
 
 
 
@@ -99,7 +100,7 @@ To interact with Kubernetes you will be using the Kubernetes API server. Configu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTM5NzE4LC0xOTEzNjkxMTM1LC05OD
-c3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYy
-LC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
+eyJoaXN0b3J5IjpbLTEwNTUzODIyMiwtMTkxMzY5MTEzNSwtOT
+g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
+MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
