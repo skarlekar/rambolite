@@ -194,7 +194,9 @@ Test the remote access by creating a web-server service with replicas of  `nginx
 
 
 ## OpenFAAS
+[OpenFaaS (Functions as a Service)](https://github.com/openfaas/faas) is a framework for building serverless functions with Docker and Kubernetes which has first class support for metrics. Any process can be packaged as a function enabling you to consume a range of web events without repetitive boiler-plate coding.
 
+OpenFaaS is a complete stack for Cloud Native application development called PLONK including: Prometheus, Linux/Linkerd, OpenFaaS, NATS/Nginx and Kubernetes. [Introducing PLONK](https://www.openfaas.com/blog/plonk-stack/).
 
 ##  Faasnetes
 `faas-netes` is an OpenFaaS provider which enables Kubernetes for [OpenFaaS](https://github.com/openfaas/faas).
@@ -213,7 +215,7 @@ Test the remote access by creating a web-server service with replicas of  `nginx
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTkyODA1Myw2MTg2MTU4ODEsMzgwMj
+eyJoaXN0b3J5IjpbMjA2Mzk0ODg3Myw2MTg2MTU4ODEsMzgwMj
 Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
 Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
 E5ODgwLC01NzI2MjQ2MTldfQ==
