@@ -51,7 +51,9 @@ Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed w
 
 ## Generate the Service Account Key Pair
  
-Kubernetes provides the ability for service accounts to authenticate using tokens. It uses a key-pair to provide signatures for those tokens.
+Kubernetes provides the ability for service accounts to authenticate using tokens. It uses a key-pair to provide signatures for those tokens. Generate the service account certificates  key-pair  files: `service-account-key.pem` and `service-account.pem`
+
+scripts/8_gen_service_acct_cert.sh
 
 
 
@@ -60,7 +62,7 @@ Kubernetes provides the ability for service accounts to authenticate using token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU3MjgzOTgsLTE5MTM2OTExMzUsLT
+eyJoaXN0b3J5IjpbLTE4ODUzMDkyMDIsLTE5MTM2OTExMzUsLT
 k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
 NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
