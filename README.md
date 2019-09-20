@@ -219,7 +219,9 @@ OpenFaaS is a complete stack for Cloud Native application development called PLO
 ### Install faas-netes
 **Have the secondary shell with the ssh tunnel to the load-balancer active for all the Faasnetes installation**
 
-Install faas-netes 
+Install faas-netes on our Kubernetes cluster
+
+    scripts/400_install_faasnetes.sh
 
 
 
@@ -230,8 +232,8 @@ Install faas-netes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4NTk2OTAyLDYxODYxNTg4MSwzODAyNj
-YzNzAsMTU3NDczMzUxOCwtMTkxMzY5MTEzNSwtOTg3NzQ1OTAz
-LDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2MiwtMjgyMT
-k4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbLTE1MzA2NDY2MzQsNjE4NjE1ODgxLDM4MD
+I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
+MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
+IxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
