@@ -54,6 +54,9 @@ Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed w
 
     scripts/8_gen_service_acct_cert.sh
 
+## Deploy the Certificates
+Distribute the generated certificates to the servers on the cloud
+
 
 
 
@@ -61,7 +64,7 @@ Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed w
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDk2NzkwMCwtMTkxMzY5MTEzNSwtOT
-g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
-MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbMzMxOTQ1MzYyLC0xOTEzNjkxMTM1LC05OD
+c3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYy
+LC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
