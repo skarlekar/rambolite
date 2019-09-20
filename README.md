@@ -94,7 +94,7 @@ In Kubernetes the Controller Manager is a daemon uses a **control** loop that wa
     scripts/17_setup_kube_controller_manager.sh
 
 ## Setup the Kubernetes Scheduler on the Controllers
-
+The Kubernetes Scheduler controls performance, capacity and availability of the worker nodes through policies and topology awareness. The Kubernetes scheduler attempts to match each Pod created by Kubernetes to a suitable set of resources on a Node. It can also distribute copies of Pods across different Nodes for high availability, if that feature is desired. If it fails 
 
 
 
@@ -107,7 +107,7 @@ In Kubernetes the Controller Manager is a daemon uses a **control** loop that wa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDczMzUxOCwtMTkxMzY5MTEzNSwtOT
-g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
-MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbLTExMTA5OTk5NjIsMTU3NDczMzUxOCwtMT
+kxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQx
+NTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
