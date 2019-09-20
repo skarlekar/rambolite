@@ -103,8 +103,12 @@ Enable HTTP health checks using nginx. Install nginx on each controller, configu
 
     scripts/19_enable_health_checks.sh
 
-## Setup RBAC on one of the Controllers
-Kubernetes uses role-based access control configuration to allow the cluster's API to access `kubelet` functionality such as logs and metrics. Configure RBAC for `kubelet` authorization
+## Setup RBAC the Controllers
+Kubernetes uses **R**ole-**B**ased **A**ccess **C**ontrol configuration to allow the cluster's API to access `kubelet` functionality such as logs and metrics. Configure RBAC for `kubelet` authorization
+
+    scripts/20_setup_rbac.sh
+
+## 
 
 
 
@@ -116,7 +120,7 @@ Kubernetes uses role-based access control configuration to allow the cluster's A
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjQ1MzcyLDE1NzQ3MzM1MTgsLTE5MT
-M2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2
-LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTM1NzA5MzcyOSwxNTc0NzMzNTE4LC0xOT
+EzNjkxMTM1LC05ODc3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1
+NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
