@@ -146,13 +146,18 @@ Configure `kubectl` to allow running commands against your remote Kubernetes clu
 
 In a separate shell, open up an ssh tunnel to port 6443 on your Kubernetes API load balancer using:
 
-scripts/100_start_ssh_tunnel_to_lb.run_locally.sh
+    scripts/100_start_ssh_tunnel_to_lb.run_locally.sh
 
-Back in the main shell where you were your setting up your cluster, run the following command to setup the cluster, cre
+Back in the main shell where you were your setting up your cluster, run the following command to setup a new cluster, configure the credentials of the admin user in the cluster and set the current context to the new cluster.
+
+    scripts/101_create_kube_cluster_and_context.sh
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTc1MDgxOSw2MTg2MTU4ODEsMzgwMj
-Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
-Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
-E5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTExNTY5NzI2MDIsNjE4NjE1ODgxLDM4MD
+I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
+MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
+IxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
