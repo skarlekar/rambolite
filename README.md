@@ -69,6 +69,7 @@ A **kubeconfig** file is a file used to configure access to Kubernetes when used
 To store sensitive data as secrets, create a data encryption config containing an encryption key.
 
     scripts/12_gen_encryption_key.sh
+    scripts/13_move_encryption_key.sh
 
 ## 
 
@@ -82,7 +83,7 @@ To store sensitive data as secrets, create a data encryption config containing a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc5NzY2MTIsLTE5MTM2OTExMzUsLT
+eyJoaXN0b3J5IjpbLTIwMzYzNzk4OTAsLTE5MTM2OTExMzUsLT
 k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
 NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
