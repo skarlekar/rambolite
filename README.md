@@ -115,6 +115,7 @@ To achieve high availability for the Kubernetes API server we have setup two con
 
 ## Install Services on Workers
 
+Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`, `kubelet` and configure them.
 
 
 
@@ -124,8 +125,8 @@ To achieve high availability for the Kubernetes API server we have setup two con
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY0NTE3MjksMzgwMjY2MzcwLDE1Nz
-Q3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1
-NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01Nz
-I2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbMTU0NDU3NDc5NSwzODAyNjYzNzAsMTU3ND
+czMzUxOCwtMTkxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2
+LDE3MTc3NTQxNTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3Mj
+YyNDYxOV19
 -->
