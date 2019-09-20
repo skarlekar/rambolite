@@ -212,6 +212,8 @@ OpenFaaS is a complete stack for Cloud Native application development called PLO
 `faas-netes` is an OpenFaaS provider which enables Kubernetes for [OpenFaaS](https://github.com/openfaas/faas).
 
 ![Faasnetes Components](https://github.com/skarlekar/rambolite/blob/master/images/openfaas-architecture.png)
+### In
+
 ### Install Faasnetes
 **Have the secondary shell with the ssh tunnel to the load-balancer active for all the Faasnetes installation**
 
@@ -225,7 +227,7 @@ OpenFaaS is a complete stack for Cloud Native application development called PLO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzI5MTMwOSw2MTg2MTU4ODEsMzgwMj
+eyJoaXN0b3J5IjpbMTc2NjgzNDI4NSw2MTg2MTU4ODEsMzgwMj
 Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
 Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
 E5ODgwLC01NzI2MjQ2MTldfQ==
