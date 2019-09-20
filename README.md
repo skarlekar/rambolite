@@ -89,12 +89,12 @@ To interact with Kubernetes you will be using the Kubernetes API server. Configu
     scripts/16_install_kubernetes_api.sh
 
 ## Setup the Kubernetes Controller Manager on the Controllers
-In Kubernetes the Controller Manager is a daemon uses a **control** loop that watches the shared state of the cluster through the `kube-apiserver` and makes changes attempting to move the current state towards the desired state (ie., it brings up the worker nodes if it fails). Configure the kube-controller-manager service on the controllers.
+In Kubernetes the Controller Manager is a daemon uses a **control** loop that watches the shared state of the cluster through the `kube-apiserver` and makes changes attempting to move the current state towards the desired state (ie., it brings up the worker nodes if it fails). Configure the `kube-controller-manager` service on the controllers.
 
     scripts/17_setup_kube_controller_manager.sh
 
 ## Setup the Kubernetes Scheduler on the Controllers
-The Kubernetes Scheduler controls performance, capacity and availability of the worker nodes through policies and topology awareness. The Kubernetes scheduler attempts to match each Pod created by Kubernetes to a suitable set of resources on a Node. It can also distribute copies of Pods across different Nodes for high availability, if that feature is desired. If it fails 
+The Kubernetes Scheduler controls performance, capacity and availability of the worker nodes through policies and topology awareness. The Kubernetes scheduler attempts to match each Pod created by Kubernetes to a suitable set of resources on a Node. It can also distribute copies of Pods across different Nodes for high availability, if that feature is desired. If it fails to find hardware that suits a Pod's requirements and specifications, that Pod is left unscheduled, and the scheduler retries it until a machine becomes available. Configure the `kube-scheduler` on the controllers.
 
 
 
@@ -107,7 +107,7 @@ The Kubernetes Scheduler controls performance, capacity and availability of the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTA5OTk5NjIsMTU3NDczMzUxOCwtMT
-kxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQx
-NTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbLTM4NTc5MzA2OSwxNTc0NzMzNTE4LC0xOT
+EzNjkxMTM1LC05ODc3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1
+NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
