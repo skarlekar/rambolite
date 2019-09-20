@@ -71,7 +71,7 @@ To store sensitive data as secrets, create a data encryption config containing a
     scripts/12_gen_encryption_key.sh
     scripts/13_move_encryption_key.sh
 
-## 
+## Build a **etcd** Cluster
 
     
 
@@ -83,7 +83,7 @@ To store sensitive data as secrets, create a data encryption config containing a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYzNzk4OTAsLTE5MTM2OTExMzUsLT
-k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
-NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbMTQ0OTUzNjYyNywtMTkxMzY5MTEzNSwtOT
+g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
+MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
