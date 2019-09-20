@@ -18,8 +18,10 @@ Create five EC2 instances on AWS using the Ubuntu 16.04 AMI (ami-0cfee17793b08a2
 
 Each instance should at least be a t2.medium with 8GB memory and the following inbound rules in the security group:
 
-TCP: 80, 8888, 8080 from everywhere
-All traffic from within your security group to allow the nodes and the controller to t
+
+TCP: 80, 8888, 8080, 22 & 443 from everywhere
+All traffic from within your security group to allow the nodes and the controller to communicate
+
 
 Enable public IP for all instances.
  
@@ -28,6 +30,6 @@ Enable public IP for all instances.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
-IxOTg4MCwtNTcyNjI0NjE5XX0=
+eyJoaXN0b3J5IjpbNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MD
+MxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
