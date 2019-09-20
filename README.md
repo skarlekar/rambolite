@@ -148,10 +148,10 @@ In a separate shell, open up an ssh tunnel to port 6443 on your Kubernetes API l
 
 scripts/100_start_ssh_tunnel_to_lb.run_locally.sh
 
-
+Back in the main shell where you were your setting up your cluster, run the following command to setup the cluster, cre
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjA3NzE4Niw2MTg2MTU4ODEsMzgwMj
+eyJoaXN0b3J5IjpbMTE2NTc1MDgxOSw2MTg2MTU4ODEsMzgwMj
 Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
 Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
 E5ODgwLC01NzI2MjQ2MTldfQ==
