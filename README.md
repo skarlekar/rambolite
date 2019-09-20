@@ -113,7 +113,8 @@ To achieve high availability for the Kubernetes API server we have setup two con
 
     scripts/21_config_load_balancer.sh
 
-## 
+## Install Services on Workers
+
 
 
 
@@ -123,7 +124,8 @@ To achieve high availability for the Kubernetes API server we have setup two con
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwMjY2MzcwLDE1NzQ3MzM1MTgsLTE5MT
-M2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2
-LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTE5MTY0NTE3MjksMzgwMjY2MzcwLDE1Nz
+Q3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1
+NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01Nz
+I2MjQ2MTldfQ==
 -->
