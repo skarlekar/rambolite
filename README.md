@@ -158,15 +158,20 @@ Back in the main shell where you were your setting up your cluster, run the foll
 Verify that the cluster is setup correctly and working fully as expected by running some basic tests.
 **Have the secondary shell with the ssh tunnel to the load-balancer active for all the tests**
 
-### Test Remote Access
-Test the remote access by creating a web-server service with replicas of  nginx and pinging it with a curl command from another 
+### Test Remote Access & Networking
+Test the remote access by creating a web-server service with replicas of  `nginx` and pinging it with a `curl` command from another container running `busybox`
+
+    scripts/200_test_kubernetes.run_locally.sh
+    scripts/201_clean_up_test_200.run_locally.sh
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mjk0MDM0MSw2MTg2MTU4ODEsMzgwMj
-Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
-Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
-E5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTE2NzQ3MTUzMDIsNjE4NjE1ODgxLDM4MD
+I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
+MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
+IxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
