@@ -109,7 +109,11 @@ Kubernetes uses **R**ole-**B**ased **A**ccess **C**ontrol configuration to allow
     scripts/20_setup_rbac.sh
 
 ## Setup a Kube API Load Balancer
-To achieve high availability for the Kubernetes API server we have setup two controller nodes running API Server services in each one of them. To perform load balancing between them
+To achieve high availability for the Kubernetes API server we have setup two controller nodes running API Server services in each one of them. To perform load balancing between them setup a nginx server to perform the load balancing among these services.
+
+    scripts/21_config_load_balancer.sh
+
+## 
 
 
 
@@ -119,7 +123,7 @@ To achieve high availability for the Kubernetes API server we have setup two con
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzcyNDkyOTAsMTU3NDczMzUxOCwtMT
-kxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQx
-NTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbMzgwMjY2MzcwLDE1NzQ3MzM1MTgsLTE5MT
+M2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2
+LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
