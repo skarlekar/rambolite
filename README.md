@@ -131,11 +131,15 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
 
 ## Configure Network Routing on the Workers
 `kube-proxy` is responsible for providing network routing to support Kubernetes networking components. Configure kube-proxy on each of the worker nodes and start all the worker node binaries: 
+`containerd`, `kubelet`,  and  `kube-proxy`
+
+    scripts/25_configure_kubeproxy.sh
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMzEwNTU1LDM4MDI2NjM3MCwxNTc0Nz
+eyJoaXN0b3J5IjpbNjE4NjE1ODgxLDM4MDI2NjM3MCwxNTc0Nz
 MzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5MDMsNDMzMzcwNTYs
 MTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNj
 I0NjE5XX0=
