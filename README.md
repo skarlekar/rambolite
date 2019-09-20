@@ -12,9 +12,11 @@ The Kubernetes command-line tool, [kubectl](https://kubernetes.io/docs/user-guid
 
 
 ## Initialize compute nodes on AWS
-Create five EC2 instances on AWS using the Ubuntu 16.04 AMI (ami-0cfee17793b08a293).  There will be two controller instances, one load balancer and two worker nodes in our cluster as shown in the 
+Create five EC2 instances on AWS using the Ubuntu 16.04 AMI (ami-0cfee17793b08a293).  There will be two controller instances, one load balancer and two worker nodes in our cluster as shown in the following diagram:
 
-Each instance should atleast be a t2.medium with 8GB memory and the following inbound rules in the security group:
+![Cluster Arch](https://github.com/skarlekar/rambolite/blob/master/Cluster-architecture.png)
+
+Each instance should at least be a t2.medium with 8GB memory and the following inbound rules in the security group:
 
 TCP: 80, 8888, 8080 from everywhere
 All traffic from within your security group to allow the nodes and the controller to t
@@ -26,6 +28,6 @@ Enable public IP for all instances.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Mzg0OTgwLC05MTQwMzE2NjIsLTI4Mj
-E5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTkwMDc0ODIxNSwtOTE0MDMxNjYyLC0yOD
+IxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
