@@ -93,6 +93,7 @@ In Kubernetes the Controller Manager is a daemon uses a **control** loop that wa
 
     scripts/17_setup_kube_controller_manager.sh
 
+## Setup the Kubernetes Scheduler on the Controllers
 
 
 
@@ -106,7 +107,7 @@ In Kubernetes the Controller Manager is a daemon uses a **control** loop that wa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQxMTc5MzIsLTE5MTM2OTExMzUsLT
-k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
-NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbMTU3NDczMzUxOCwtMTkxMzY5MTEzNSwtOT
+g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
+MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
