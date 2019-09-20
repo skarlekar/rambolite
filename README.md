@@ -193,7 +193,10 @@ Test the remote access by creating a web-server service with replicas of  `nginx
     scripts/306_smoketest_cleanup.sh
 
 
-## Install Faasnetes
+##  Faasnetes
+
+![Faasnetes Components](https://github.com/skarlekar/rambolite/blob/master/images/openfaas-architecture.png)
+### Install Faasnetes
 **Have the secondary shell with the ssh tunnel to the load-balancer active for all the Faasnetes installation**
 
 
@@ -206,7 +209,7 @@ Test the remote access by creating a web-server service with replicas of  `nginx
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA3NjE5MjUsNjE4NjE1ODgxLDM4MD
+eyJoaXN0b3J5IjpbLTE5Mzc2ODg4MzEsNjE4NjE1ODgxLDM4MD
 I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
 MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
 IxOTg4MCwtNTcyNjI0NjE5XX0=
