@@ -57,14 +57,16 @@ Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed w
 ## Deploy the Certificates
 Distribute the generated certificates to the servers on the cloud
 
+    scripts/9_move_certs.sh
 
+## Generate kubeconfig for 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxOTQ1MzYyLC0xOTEzNjkxMTM1LC05OD
+eyJoaXN0b3J5IjpbMzE5OTM4NTEwLC0xOTEzNjkxMTM1LC05OD
 c3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYy
 LC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
