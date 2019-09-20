@@ -130,13 +130,13 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
     scripts/24_configure_kubelet.sh
 
 ## Configure Network Routing on the Workers
-
+`kube-proxy` is responsible for providing network routing to support Kubernetes networking components. Configure kube-proxy on each of the worker nodes and start all the worker node binaries: 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM5NjY5MzcsMzgwMjY2MzcwLDE1Nz
-Q3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1
-NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01Nz
-I2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbNTcwMzEwNTU1LDM4MDI2NjM3MCwxNTc0Nz
+MzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5MDMsNDMzMzcwNTYs
+MTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNj
+I0NjE5XX0=
 -->
