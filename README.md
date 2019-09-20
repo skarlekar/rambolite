@@ -21,10 +21,9 @@ Create five EC2 instances on AWS using the Ubuntu 16.04 AMI (ami-0cfee17793b08a2
 Each instance should at least be a t2.medium with 8GB memory and the following inbound rules in the security group:
 ![Security Group Inbound Rules](https://github.com/skarlekar/rambolite/blob/master/images/inbound-rules.png)
 
-TCP: 80, 8888, 8080, 22 & 443 from everywhere
+The following ports show allow traffic from everywhere. TCP: 80, 8888, 8080, 22 & 443.
 All traffic from within your security group to allow the nodes and the controller to communicate
-Enable public IP for all instances.
-Enable all traffic from your laptop. You can use http://whatsmyip.com to find your local router's gateway IP address.
+Enable public IP for all instances. Enable all traffic from your laptop. You can use http://whatsmyip.com to find your local router's gateway IP address.
 
 
  
@@ -33,7 +32,7 @@ Enable all traffic from your laptop. You can use http://whatsmyip.com to find yo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ4MjY2NzIsNDMzMzcwNTYsMTcxNz
-c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
-XX0=
+eyJoaXN0b3J5IjpbODYyMDk3MzE5LDQzMzM3MDU2LDE3MTc3NT
+QxNTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+
 -->
