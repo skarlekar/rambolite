@@ -108,9 +108,8 @@ Kubernetes uses **R**ole-**B**ased **A**ccess **C**ontrol configuration to allow
 
     scripts/20_setup_rbac.sh
 
-## 
-
-
+## Setup a Kube API Load Balancer
+To achieve high availability for the Kubernetes API server
 
 
 
@@ -120,7 +119,7 @@ Kubernetes uses **R**ole-**B**ased **A**ccess **C**ontrol configuration to allow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzA5MzcyOSwxNTc0NzMzNTE4LC0xOT
+eyJoaXN0b3J5IjpbLTkxODA2MzMwNiwxNTc0NzMzNTE4LC0xOT
 EzNjkxMTM1LC05ODc3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1
 NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
