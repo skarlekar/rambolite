@@ -30,6 +30,8 @@ Edit the scripts/0_set_environment_vars.sh and replace the public DNS name, publ
 vi scripts/0_set_environment_vars.sh
 
 ## Install and provision a local certificate authority
+In order to generate certificates for the local kubectl to communicate with the controllers and the nodes within the Kubernetes cluster to communicate with each other, generate the certificate authority
+
 
 
  
@@ -38,7 +40,7 @@ vi scripts/0_set_environment_vars.sh
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI5NDg4OTgsNDMzMzcwNTYsMTcxNz
-c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
-XX0=
+eyJoaXN0b3J5IjpbLTMzMzMxMTg1Niw0MzMzNzA1NiwxNzE3Nz
+U0MTU2LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTld
+fQ==
 -->
