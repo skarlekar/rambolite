@@ -25,7 +25,12 @@ The following ports show allow traffic from everywhere. TCP: 80, 8888, 8080, 22 
 Also allow all traffic from within your security group to allow the nodes and the controller to communicate with each other. Enable public IP for all instances. Enable all traffic from your laptop. You can use http://whatsmyip.com to find your local router's gateway IP address.
 
 ## Initalize the environment variables
-Edit the scripts/0_set_environment_vars.sh and replace the public DNS name, public IP and private IP for the 
+Edit the scripts/0_set_environment_vars.sh and replace the public DNS name, public IP and private IP for the controllers, workers and the load balancer from your AWS console.
+
+vi scripts/0_set_environment_vars.sh
+
+## Install and provision a local certificate authority
+
 
  
 
@@ -33,7 +38,7 @@ Edit the scripts/0_set_environment_vars.sh and replace the public DNS name, publ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY4MjgwMTcsNDMzMzcwNTYsMTcxNz
+eyJoaXN0b3J5IjpbLTE5MDI5NDg4OTgsNDMzMzcwNTYsMTcxNz
 c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
 XX0=
 -->
