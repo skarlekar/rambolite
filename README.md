@@ -198,6 +198,14 @@ Test the remote access by creating a web-server service with replicas of  `nginx
 
 OpenFaaS is a complete stack for Cloud Native application development called PLONK including: Prometheus, Linux/Linkerd, OpenFaaS, NATS/Nginx and Kubernetes. [Introducing PLONK](https://www.openfaas.com/blog/plonk-stack/).
 
+**Highlights**
+-   Ease of use through UI portal and  _one-click_  install
+-   Write services and functions in any language with  [Template Store](https://www.openfaas.com/blog/template-store/)  or a Dockerfile
+-   Build and ship your code in the Docker/OCI image format
+-   Portable: runs on existing hardware or public/private cloud by leveraging  [Kubernetes](https://github.com/openfaas/faas-netes)
+-   [CLI](http://github.com/openfaas/faas-cli)  available with YAML format for templating and defining functions
+-   Auto-scales as demand increases  [including to zero](https://www.openfaas.com/blog/zero-scale/)
+
 ##  Faasnetes
 `faas-netes` is an OpenFaaS provider which enables Kubernetes for [OpenFaaS](https://github.com/openfaas/faas).
 
@@ -215,8 +223,8 @@ OpenFaaS is a complete stack for Cloud Native application development called PLO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Mzk0ODg3Myw2MTg2MTU4ODEsMzgwMj
-Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
-Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
-E5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbMjE2MjczMzgyLDYxODYxNTg4MSwzODAyNj
+YzNzAsMTU3NDczMzUxOCwtMTkxMzY5MTEzNSwtOTg3NzQ1OTAz
+LDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2MiwtMjgyMT
+k4ODAsLTU3MjYyNDYxOV19
 -->
