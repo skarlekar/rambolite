@@ -71,7 +71,11 @@ To store sensitive data as secrets, create a data encryption config containing a
     scripts/12_gen_encryption_key.sh
     scripts/13_move_encryption_key.sh
 
-## Build a **etcd** Cluster
+## Build a **etcd** Cluster on each of the Controllers
+_etcd_ is a strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. It gracefully handles leader elections during network partitions and can tolerate machine failure, even in the leader node.
+
+Build an *etcd* cluster across your Kubernetes control nodes.
+
 
     
 
@@ -83,7 +87,7 @@ To store sensitive data as secrets, create a data encryption config containing a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTUzNjYyNywtMTkxMzY5MTEzNSwtOT
+eyJoaXN0b3J5IjpbLTgzNDk3MTk0MSwtMTkxMzY5MTEzNSwtOT
 g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
 MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
