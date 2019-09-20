@@ -117,6 +117,8 @@ To achieve high availability for the Kubernetes API server we have setup two con
 
 Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`, `kubelet` and configure them.
 
+    scripts/22_intall_worker_binaries.sh
+
 
 
 
@@ -125,7 +127,7 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDU3NDc5NSwzODAyNjYzNzAsMTU3ND
+eyJoaXN0b3J5IjpbLTgyNjg2NjM4NSwzODAyNjYzNzAsMTU3ND
 czMzUxOCwtMTkxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2
 LDE3MTc3NTQxNTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3Mj
 YyNDYxOV19
