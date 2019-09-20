@@ -152,12 +152,14 @@ Back in the main shell where you were your setting up your cluster, run the foll
 
     scripts/101_create_kube_cluster_and_context.sh
 
+## Testing the Kubernetes Installation
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY5NzI2MDIsNjE4NjE1ODgxLDM4MD
-I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
-MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
-IxOTg4MCwtNTcyNjI0NjE5XX0=
+eyJoaXN0b3J5IjpbMTQ4MDI4OTY3Nyw2MTg2MTU4ODEsMzgwMj
+Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
+Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
+E5ODgwLC01NzI2MjQ2MTldfQ==
 -->
