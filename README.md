@@ -83,7 +83,8 @@ Install the binaries for `kube-apiserver`, `kube-controller-manager`, k`ube-sche
 
     scripts/15_install_control_plane_on_controllers.sh
 
-
+## Setup the Kubernetes API Server on the Controllers
+To interact with Kubernetes you will be using the Kubernetes API server. Configure kube-apiserver service on the controllers.
     
 
 
@@ -96,7 +97,7 @@ Install the binaries for `kube-apiserver`, `kube-controller-manager`, k`ube-sche
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk4MTE4OTksLTE5MTM2OTExMzUsLT
-k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
-NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbLTIzNDgyNjYxOSwtMTkxMzY5MTEzNSwtOT
+g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
+MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
