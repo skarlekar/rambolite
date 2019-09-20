@@ -78,8 +78,10 @@ Build an *etcd* cluster across your Kubernetes control nodes.
 
     scripts/14_install_etcd_on_controllers.sh
 
-## Install Control Plane binaries on the Controllers
-Ins
+## Install Control Plane on the Controllers
+Install the binaries for kube-apiserver, kube-controller-manager, kube-scheduler,  and kubectl on the controllers.
+
+    scripts/15_install_control_plane_on_controllers.sh
 
     
 
@@ -91,8 +93,9 @@ Ins
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzkyMzQ3MywtMTkxMzY5MTEzNSwtOT
-g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
-MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbMTMyODM3OTMsLTE5MTM2OTExMzUsLTk4Nz
+c0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIs
+LTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
