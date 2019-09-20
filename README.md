@@ -119,7 +119,8 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
 
     scripts/22_intall_worker_binaries.sh
 
-
+## Configure **containerd** on the Workers
+`Containerd` is the container runtime used to run containers managed by Kubernetes. Configure a `systemd` service for `containerd` on both of our worker node servers
 
 
 
@@ -127,7 +128,7 @@ Download and install the binaries worker nodes services, `kubectl`, `kube-proxy`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjg2NjM4NSwzODAyNjYzNzAsMTU3ND
+eyJoaXN0b3J5IjpbMTY4NzY1Nzg3MywzODAyNjYzNzAsMTU3ND
 czMzUxOCwtMTkxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2
 LDE3MTc3NTQxNTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3Mj
 YyNDYxOV19
