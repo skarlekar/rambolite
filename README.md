@@ -89,7 +89,7 @@ To interact with Kubernetes you will be using the Kubernetes API server. Configu
     scripts/16_install_kubernetes_api.sh
 
 ## Setup the Kubernetes Controller Manager on the Controllers
-
+In Kubernetes the Controller Manager is a daemon uses a **control** loop that watches the shared state of the cluster through the apiserver and makes changes attempting to move the current state towards the desired state
 
 
 
@@ -100,7 +100,7 @@ To interact with Kubernetes you will be using the Kubernetes API server. Configu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTUzODIyMiwtMTkxMzY5MTEzNSwtOT
-g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
-MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbLTEyNjg3MjI3ODcsLTE5MTM2OTExMzUsLT
+k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
+NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
