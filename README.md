@@ -159,14 +159,14 @@ Verify that the cluster is setup correctly and working fully as expected by runn
 **Have the secondary shell with the ssh tunnel to the load-balancer active for all the tests**
 
 ### Test Remote Access
-Test the remote access by creating a web-server running
+Test the remote access by creating a web-server service with replicas of  nginx and pinging it with a curl command from another 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzE2NTc2LDYxODYxNTg4MSwzODAyNj
-YzNzAsMTU3NDczMzUxOCwtMTkxMzY5MTEzNSwtOTg3NzQ1OTAz
-LDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2MiwtMjgyMT
-k4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbLTI2Mjk0MDM0MSw2MTg2MTU4ODEsMzgwMj
+Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
+Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
+E5ODgwLC01NzI2MjQ2MTldfQ==
 -->
