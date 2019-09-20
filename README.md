@@ -40,12 +40,15 @@ Generate client certificates used by : `admin`, `kubelet` (one for each worker n
     scripts/2_gen_admin_client_cert.sh
     scripts/3_gen_worker_certs.sh
     scripts/4_gen_controller_manager_cert.sh
-    
+    scripts/5_gen_kube_proxy_cert.sh
+    scripts/6_gen_kube_scheduler_cert.sh
 
 ## Generate server certificate
 Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed with all of the hostnames and IPs that may be used later in order to access the Kubernetes API.
 
     scripts/7_gen_create_server_cert.sh
+
+
 
  
 
@@ -57,7 +60,7 @@ Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed w
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTkwMTA5NywtMTkxMzY5MTEzNSwtOT
+eyJoaXN0b3J5IjpbLTM2ODg2MzQwMSwtMTkxMzY5MTEzNSwtOT
 g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
 MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
