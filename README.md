@@ -96,7 +96,10 @@ In Kubernetes the Controller Manager is a daemon uses a **control** loop that wa
 ## Setup the Kubernetes Scheduler on the Controllers
 The Kubernetes Scheduler controls performance, capacity and availability of the worker nodes through policies and topology awareness. The Kubernetes scheduler attempts to match each Pod created by Kubernetes to a suitable set of resources on a Node. It can also distribute copies of Pods across different Nodes for high availability, if that feature is desired. If it fails to find hardware that suits a Pod's requirements and specifications, that Pod is left unscheduled, and the scheduler retries it until a machine becomes available. Configure the `kube-scheduler` on the controllers.
 
+    scripts/18_setup_kube_scheduler.sh
 
+## Enable HTTP Health Checks for the Controllers
+Enable HTTP health checks using nginx. Install nginx and 
 
 
 
@@ -107,7 +110,7 @@ The Kubernetes Scheduler controls performance, capacity and availability of the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTc5MzA2OSwxNTc0NzMzNTE4LC0xOT
-EzNjkxMTM1LC05ODc3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1
-NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
+eyJoaXN0b3J5IjpbNjQ1MzM0NTAzLDE1NzQ3MzM1MTgsLTE5MT
+M2OTExMzUsLTk4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2
+LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
