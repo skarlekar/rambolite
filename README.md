@@ -22,9 +22,10 @@ Each instance should at least be a t2.medium with 8GB memory and the following i
 ![Security Group Inbound Rules](https://github.com/skarlekar/rambolite/blob/master/images/inbound-rules.png)
 
 The following ports show allow traffic from everywhere. TCP: 80, 8888, 8080, 22 & 443.
-All traffic from within your security group to allow the nodes and the controller to communicate
-Enable public IP for all instances. Enable all traffic from your laptop. You can use http://whatsmyip.com to find your local router's gateway IP address.
+Also allow all traffic from within your security group to allow the nodes and the controller to communicate with each other. Enable public IP for all instances. Enable all traffic from your laptop. You can use http://whatsmyip.com to find your local router's gateway IP address.
 
+## Initalize the environment variables
+Edit the scripts/0_set_environment_vars.sh and replace the public DNS name, public IP and private IP for the 
 
  
 
@@ -32,7 +33,7 @@ Enable public IP for all instances. Enable all traffic from your laptop. You can
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyMDk3MzE5LDQzMzM3MDU2LDE3MTc3NT
-QxNTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
-
+eyJoaXN0b3J5IjpbLTEwNDY4MjgwMTcsNDMzMzcwNTYsMTcxNz
+c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
+XX0=
 -->
