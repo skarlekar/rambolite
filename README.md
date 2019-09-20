@@ -1,7 +1,7 @@
 # rambolite
 Framework to rapidly onboard microservices on a Kubernetes cluster
 
-## Installing the client tools
+## Installing the Client Tools
 Install *cfssl* and *kubectl* and verify the installation using:
 
     ./scripts/install_client_tools_mac.run_locally.sh
@@ -11,7 +11,7 @@ CFSSL is CloudFlare's PKI/TLS swiss army knife. It is both a command line tool a
 The Kubernetes command-line tool, [kubectl](https://kubernetes.io/docs/user-guide/kubectl/), allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs. For a complete list of kubectl operations, see [Overview of kubectl](https://kubernetes.io/docs/reference/kubectl/overview/).
 
 
-## Initialize compute nodes on AWS
+## Initialize Compute Nodes on AWS
 Create five EC2 instances on AWS using the Ubuntu 16.04 AMI (ami-0cfee17793b08a293).  There will be two controller instances, one load balancer and two worker nodes in our cluster as shown in the following diagram:
 
 ![Cluster Architecture](https://github.com/skarlekar/rambolite/blob/master/images/Cluster-architecture.png)
@@ -24,17 +24,17 @@ Each instance should at least be a t2.medium with 8GB memory and the following i
 The following ports show allow traffic from everywhere. TCP: 80, 8888, 8080, 22 & 443.
 Also allow all traffic from within your security group to allow the nodes and the controller to communicate with each other. Enable public IP for all instances. Enable all traffic from your laptop. You can use http://whatsmyip.com to find your local router's gateway IP address.
 
-## Initalize the environment variables
+## Initalize the Environment Variables
 Edit the scripts/0_set_environment_vars.sh and replace the public DNS name, public IP and private IP for the controllers, workers and the load balancer from your AWS console.
 
     vi scripts/0_set_environment_vars.sh
 
-## Install and provision a local certificate authority
+## Install and provision a local Certificate Authority
 In order to generate certificates for the local kubectl to communicate with the controllers and the nodes within the Kubernetes cluster to communicate with each other, generate the certificate authority
 
     scripts/1_gen_cert_auth.sh
 
-## Generate client certificates
+## Generate Client Certificates
 Generate client certificates used by : `admin`, `kubelet` (one for each worker node), `kube-controller-manager`, `kube-proxy`, and `kube-scheduler`
 
     scripts/2_gen_admin_client_cert.sh
@@ -43,15 +43,15 @@ Generate client certificates used by : `admin`, `kubelet` (one for each worker n
     scripts/5_gen_kube_proxy_cert.sh
     scripts/6_gen_kube_scheduler_cert.sh
 
-## Generate server certificate
+## Generate Server Certificate
 Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed with all of the hostnames and IPs that may be used later in order to access the Kubernetes API.
 
     scripts/7_gen_create_server_cert.sh
 
 
-
+## Generate the Service Account Key Pair
  
-
+Kubernetes provides the ability for service accounts to authenticate using tokens. It uses a key-pair to provide signatures for those tokens.
 
 
 
@@ -60,7 +60,7 @@ Generate a server certificate `kubernetes-key.pem` and `kubernetes.pem` signed w
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODg2MzQwMSwtMTkxMzY5MTEzNSwtOT
-g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
-MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbLTE0OTU3MjgzOTgsLTE5MTM2OTExMzUsLT
+k4Nzc0NTkwMyw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2
+NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTldfQ==
 -->
