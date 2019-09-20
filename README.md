@@ -103,7 +103,8 @@ Enable HTTP health checks using nginx. Install nginx on each controller, configu
 
     scripts/19_enable_health_checks.sh
 
-## Setup RBAC
+## Setup RBAC on one of the Controllers
+Kuvernet
 
 
 
@@ -115,7 +116,7 @@ Enable HTTP health checks using nginx. Install nginx on each controller, configu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ1OTE3MzgsMTU3NDczMzUxOCwtMT
-kxMzY5MTEzNSwtOTg3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQx
-NTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
+eyJoaXN0b3J5IjpbMTA5ODc4NTYyMiwxNTc0NzMzNTE4LC0xOT
+EzNjkxMTM1LC05ODc3NDU5MDMsNDMzMzcwNTYsMTcxNzc1NDE1
+NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5XX0=
 -->
