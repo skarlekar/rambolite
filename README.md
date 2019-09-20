@@ -155,13 +155,16 @@ Back in the main shell where you were your setting up your cluster, run the foll
 ## Testing the Kubernetes Installation
 
 Verify that the cluster is setup correctly and working fully as expected by running some basic tests.
+Have the secondary shell wit
 
-### 
+### Test Data Encryption
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQxMTM3MDIsNjE4NjE1ODgxLDM4MD
-I2NjM3MCwxNTc0NzMzNTE4LC0xOTEzNjkxMTM1LC05ODc3NDU5
-MDMsNDMzMzcwNTYsMTcxNzc1NDE1NiwtOTE0MDMxNjYyLC0yOD
-IxOTg4MCwtNTcyNjI0NjE5XX0=
+eyJoaXN0b3J5IjpbMTMyMDc4OTAxOCw2MTg2MTU4ODEsMzgwMj
+Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
+Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
+E5ODgwLC01NzI2MjQ2MTldfQ==
 -->
