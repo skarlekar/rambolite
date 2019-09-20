@@ -12,12 +12,12 @@ The Kubernetes command-line tool, [kubectl](https://kubernetes.io/docs/user-guid
 
 
 ## Initialize compute nodes on AWS
-Create five EC2 instances on AWS using the Ubuntu 16.04 AMI. 
+Create five EC2 instances on AWS using the Ubuntu 16.04 AMI. Each instance should be a 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDc0MzczMSwtMjgyMTk4ODAsLTU3Mj
+eyJoaXN0b3J5IjpbLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3Mj
 YyNDYxOV19
 -->
