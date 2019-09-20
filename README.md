@@ -78,7 +78,8 @@ Build an *etcd* cluster across your Kubernetes control nodes.
 
     scripts/14_install_etcd_on_controllers.sh
 
-## 
+## Install Control Plane binaries on the Controllers
+Ins
 
     
 
@@ -91,7 +92,7 @@ Build an *etcd* cluster across your Kubernetes control nodes.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTQ4ODkxMywtMTkxMzY5MTEzNSwtOT
+eyJoaXN0b3J5IjpbMTM3MzkyMzQ3MywtMTkxMzY5MTEzNSwtOT
 g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
 MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
