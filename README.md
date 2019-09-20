@@ -76,6 +76,9 @@ _etcd_ is a strongly consistent, distributed key-value store that provides a rel
 
 Build an *etcd* cluster across your Kubernetes control nodes.
 
+    scripts/14_install_etcd_on_controllers.sh
+
+## 
 
     
 
@@ -86,8 +89,9 @@ Build an *etcd* cluster across your Kubernetes control nodes.
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDk3MTk0MSwtMTkxMzY5MTEzNSwtOT
+eyJoaXN0b3J5IjpbMjEyNTQ4ODkxMywtMTkxMzY5MTEzNSwtOT
 g3NzQ1OTAzLDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2
 MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
 -->
