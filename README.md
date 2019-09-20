@@ -39,6 +39,8 @@ Generate client certificates used by : `admin`, `kubelet` (one for each worker n
 
     scripts/2_gen_admin_client_cert.sh
 
+## Generate server certificate
+Generate a server certificate 
  
 
 
@@ -48,7 +50,7 @@ Generate client certificates used by : `admin`, `kubelet` (one for each worker n
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MzE2ODEyLDQzMzM3MDU2LDE3MTc3NT
-QxNTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
-
+eyJoaXN0b3J5IjpbLTIwMzYwOTY4NDcsNDMzMzcwNTYsMTcxNz
+c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
+XX0=
 -->
