@@ -27,20 +27,25 @@ Also allow all traffic from within your security group to allow the nodes and th
 ## Initalize the environment variables
 Edit the scripts/0_set_environment_vars.sh and replace the public DNS name, public IP and private IP for the controllers, workers and the load balancer from your AWS console.
 
-vi scripts/0_set_environment_vars.sh
+    vi scripts/0_set_environment_vars.sh
 
 ## Install and provision a local certificate authority
 In order to generate certificates for the local kubectl to communicate with the controllers and the nodes within the Kubernetes cluster to communicate with each other, generate the certificate authority
 
+    scripts/1_gen_cert_auth.sh
 
+## Generate client certificates
+Generate client certificates used by : `admin`, `kubelet` (one for each worker node), `kube-controller-manager`, `kube-proxy`, and `kube-scheduler`.
 
  
 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzMxMTg1Niw0MzMzNzA1NiwxNzE3Nz
-U0MTU2LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTld
-fQ==
+eyJoaXN0b3J5IjpbLTE2NDE2NjM2MjYsNDMzMzcwNTYsMTcxNz
+c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
+XX0=
 -->
