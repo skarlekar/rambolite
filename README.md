@@ -144,11 +144,14 @@ For pods to communicate with each other and rest of the eco-system in Kubernetes
 ## Configure Remote Access
 Configure `kubectl` to allow running commands against your remote Kubernetes cluster.
 
+In a separate shell, open up an ssh tunnel to port 6443 on your Kubernetes API load balancer using:
+
+scripts/100_start_ssh_tunnel_to_lb.run_locally.sh
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTMwMzg3Myw2MTg2MTU4ODEsMzgwMj
+eyJoaXN0b3J5IjpbLTI4MjA3NzE4Niw2MTg2MTU4ODEsMzgwMj
 Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
 Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
 E5ODgwLC01NzI2MjQ2MTldfQ==
