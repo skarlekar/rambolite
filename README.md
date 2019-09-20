@@ -17,8 +17,8 @@ Create five EC2 instances on AWS using the Ubuntu 16.04 AMI (ami-0cfee17793b08a2
 ![Cluster Architecture](https://github.com/skarlekar/rambolite/blob/master/images/Cluster-architecture.png)
 
 
-Each instance should at least be a t2.medium with 8GB memory and the following inbound rules in the security group:
 
+Each instance should at least be a t2.medium with 8GB memory and the following inbound rules in the security group:
 ![Security Group Inbound Rules](https://github.com/skarlekar/rambolite/blob/master/images/inbound-rules.png)
 
 TCP: 80, 8888, 8080, 22 & 443 from everywhere
@@ -33,7 +33,7 @@ Enable all traffic from your laptop. You can use http://whatsmyip.com to find yo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mjk5Nzc0MCw0MzMzNzA1NiwxNzE3Nz
-U0MTU2LC05MTQwMzE2NjIsLTI4MjE5ODgwLC01NzI2MjQ2MTld
-fQ==
+eyJoaXN0b3J5IjpbLTExNzQ4MjY2NzIsNDMzMzcwNTYsMTcxNz
+c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
+XX0=
 -->
