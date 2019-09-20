@@ -151,20 +151,22 @@ In a separate shell, open up an ssh tunnel to port 6443 on your Kubernetes API l
 Back in the main shell where you were your setting up your cluster, run the following command to setup a new cluster, configure the credentials of the admin user in the cluster and set the current context to the new cluster.
 
     scripts/101_create_kube_cluster_and_context.sh
+    scripts/102_test_install_kube_dns.run_locally.sh
 
 ## Testing the Kubernetes Installation
 
 Verify that the cluster is setup correctly and working fully as expected by running some basic tests.
 **Have the secondary shell with the ssh tunnel to the load-balancer active for all the tests**
 
-### Test Data Encryption
+### Test Remote Access
+Test the remote access by creating a web-server running
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDA3NzM3MCw2MTg2MTU4ODEsMzgwMj
-Y2MzcwLDE1NzQ3MzM1MTgsLTE5MTM2OTExMzUsLTk4Nzc0NTkw
-Myw0MzMzNzA1NiwxNzE3NzU0MTU2LC05MTQwMzE2NjIsLTI4Mj
-E5ODgwLC01NzI2MjQ2MTldfQ==
+eyJoaXN0b3J5IjpbMTg4NzE2NTc2LDYxODYxNTg4MSwzODAyNj
+YzNzAsMTU3NDczMzUxOCwtMTkxMzY5MTEzNSwtOTg3NzQ1OTAz
+LDQzMzM3MDU2LDE3MTc3NTQxNTYsLTkxNDAzMTY2MiwtMjgyMT
+k4ODAsLTU3MjYyNDYxOV19
 -->
