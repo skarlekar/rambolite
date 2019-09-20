@@ -35,7 +35,8 @@ In order to generate certificates for the local kubectl to communicate with the 
     scripts/1_gen_cert_auth.sh
 
 ## Generate client certificates
-Generate client certificates used by : `admin`, `kubelet` (one for each worker node), `kube-controller-manager`, `kube-proxy`, and `kube-scheduler`.
+Generate client certificates used by : `admin`, `kubelet` (one for each worker node), `kube-controller-manager`, `kube-proxy`, and `kube-scheduler`
+
 
  
 
@@ -45,7 +46,7 @@ Generate client certificates used by : `admin`, `kubelet` (one for each worker n
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE2NjM2MjYsNDMzMzcwNTYsMTcxNz
+eyJoaXN0b3J5IjpbLTIxMjAyODEzOTQsNDMzMzcwNTYsMTcxNz
 c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
 XX0=
 -->
