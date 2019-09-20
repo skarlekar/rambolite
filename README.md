@@ -22,14 +22,16 @@ Each instance should at least be a t2.medium with 8GB memory and the following i
 TCP: 80, 8888, 8080, 22 & 443 from everywhere
 All traffic from within your security group to allow the nodes and the controller to communicate
 Enable public IP for all instances.
-Enable all traffic from your laptop. You can use http://whatsmyip.com to find your laptop's 
+Enable all traffic from your laptop. You can use http://whatsmyip.com to find your local router's gateway IP address.
+
+
  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzYyMzA5LDQzMzM3MDU2LDE3MTc3NT
-QxNTYsLTkxNDAzMTY2MiwtMjgyMTk4ODAsLTU3MjYyNDYxOV19
-
+eyJoaXN0b3J5IjpbLTEzMjc0NDE2MjAsNDMzMzcwNTYsMTcxNz
+c1NDE1NiwtOTE0MDMxNjYyLC0yODIxOTg4MCwtNTcyNjI0NjE5
+XX0=
 -->
